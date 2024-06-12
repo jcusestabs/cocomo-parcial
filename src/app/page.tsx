@@ -88,11 +88,7 @@ const Cocomo = () => {
             COCOMO (Constructive Cost Model) es un modelo de estimación de
             costos de software desarrollado por Barry W. Boehm. COCOMO estima el
             esfuerzo de desarrollo del software basado en el tamaño del software
-            en líneas de código fuente. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Eaque cum corporis voluptatibus minus tempora
-            doloribus praesentium? Hic facilis, dolorum aut inventore ducimus
-            blanditiis commodi perspiciatis excepturi praesentium explicabo
-            labore velit.
+            en líneas de código fuente.
           </div>
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl">Integrantes</h1>
