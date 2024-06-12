@@ -30,8 +30,8 @@ export const Result: React.FC<ResultProps> = ({ team, KLoC }) => {
   const { personMonths, months, persons } = calculateBasicCocomo(team, KLoC);
   return (
     <Grid>
-      <ResultColumn title={Round(personMonths)} label="Persona-meses" />
-      <ResultColumn title={Round(months)} label="Meses" />
+      <ResultColumn title={Round(personMonths)} label="Esfuerzo" />
+      <ResultColumn title={Round(months)} label="Duracion (Meses)" />
       <ResultColumn title={Round(persons)} label="Personal" />
     </Grid>
   );

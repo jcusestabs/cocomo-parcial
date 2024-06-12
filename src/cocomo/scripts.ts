@@ -53,5 +53,4 @@ export const calculateIntermediateCocomo = (
   return ai * KLoC ** bi * RFT;
 };
 
-const Multiply = (total: number, value: number) =>
-  value ? total * value : total;
+const Multiply = (total: number, value: number) => (value ? total * value : 0);
