@@ -38,8 +38,6 @@ const { Option } = Select;
 
 type Team = "organic" | "semidetach" | "embedded";
 const Cocomo = () => {
-  document.title = "Calculadora COCOMO";
-
   const [team, setTeam] = useState<Team>("organic");
   const [KLoC, setKLoC] = useState(0);
   const handleSelect = (newValue: Team) => setTeam(newValue);
